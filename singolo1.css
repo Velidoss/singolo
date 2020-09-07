@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    min-width: 100vh;
+}
+
+.container{
+    max-width: 1020px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+}
+
+.wrapper-header{
+    background: #2D2F39;
+    border-bottom: 6px solid #323645;
+}
+
+.wrapper-slider{
+    background: #EF6C64;
+    border-bottom: 6px solid #EA666B;
+    padding: 52px 10px 56px 10px;
+}
+.wrapper-services{
+    padding-top: 62px;
+    padding-bottom: 22px;
+    background: #F1F1F1;
+    border-bottom: 6px solid #fff;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+.header__logo h1{
+    font-size: 24px;
+    font-weight: 700;
+    flex: 1;
+}
+.header__logo >h1> span{
+    color: #F06C64;
+}
+
+.header__navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.header__navigation-item{
+    margin-left: 29px;
+    font-size: 12px;
+    font-weight: 700;
+    vertical-align:text-bottom;
+    transition: .2s ease;
+}
+.header__navigation-item:hover{
+    color: #F06C64;
+    cursor: pointer;
+    border-bottom: 1px solid #F06C64;
+}
+
+
+.slider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider__img-vertical{
+    margin-right: 70px;
+}
+.slider__buttons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.slider__buttons button{
+    background: transparent;
+    border: none;
+}
+.slider__buttons-left, .slider__buttons-right{
+    transition: .3s eas-in;
+}
+.slider__buttons-left:hover, .slider__buttons-right:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.services{
+    margin-bottom: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.services__heading{
+    font-weight: 900;
+    font-size: 30px;
+    color:#666D89;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+}
+.services__heading-text{
+    font-size: 18px;
+    font-weight: 300;
+    color:#767E9E;
+    line-height: 27px;
+}
+
+.services__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services__item{
+    display: flex;
+    width: 300px;
+    margin-bottom: 30px;
+    max-height: 114px;
+    overflow: hidden;
+}
+
+
+.services__item-img{
+    width: 59px;
+    height: 59px;
+    margin-right: 20px;
+
+}
+
+.services__item-title{
+    font-size: 18px;
+    font-weight: 900;
+    color:#666D89;
+    margin-bottom: 8px;
+}
+
+.services__item-description{
+    font-size: 12px;
+    font-weight: 400;
+    color:#767E9E;
+    word-spacing: 4px;
+    line-height: 21px;
+}
+
+
+
